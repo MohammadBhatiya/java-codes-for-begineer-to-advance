@@ -1,0 +1,14 @@
+import java.util.*;
+class prog106
+{
+    public static void main(String args[])
+    {
+        Scanner sc = new Scanner(System.in);
+        String s = new String();
+        System.out.println("Enter any String:");
+        s = sc.next();
+        String p;
+        p = s.substring(2,5);
+        System.out.println(p);
+    }
+}
